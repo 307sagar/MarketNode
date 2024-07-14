@@ -20,13 +20,13 @@ To get started with this project, clone the repository to your local machine.
      - Navigate to .deps/npm/@openzeppelin/contracts/token/ERC20/ERC20.sol - modify 'internal virtual'.
 4. Launch Metamask or other wallets for launching environment.     
 5. Connection to wallet
-    5.1 Select Environment - 'walletConnect'
-    5.2 Verify the connect wallet address
-    5.3 Under DEPLOY section -
-        5.3.1 Add Name,symbol as UPPERCASE.(no breaks allowed in name)
-        5.3.2 Add CAP,INITIALSUPPLY - Based on gas supported by the wallet connected, add these values.Start with low values (E.g CAP - 5000000000000000000 , INITIALSUPPLY - 4000000000000000000 as gwei)
-    5.4 Click transact
-    5.5 At the bottom section, go to Deployed/Unpinned contracts - Copy the deployed contract address
+- Select Environment - 'walletConnect'
+- Verify the connect wallet address
+- Under DEPLOY section -
+- Add Name,symbol as UPPERCASE.(no breaks allowed in name)
+- Add CAP,INITIALSUPPLY - Based on gas supported by the wallet connected, add these values.Start with low values (E.g CAP - 5000000000000000000 , INITIALSUPPLY - 4000000000000000000 as gwei)
+- Click transact
+- At the bottom section, go to Deployed/Unpinned contracts - Copy the deployed contract address
 6. Use the copied address to paste in 'server.js' file. (Example - const contractAddress = "copied address";)
 7. Run 'npm start' in backend directory/path.          
 
