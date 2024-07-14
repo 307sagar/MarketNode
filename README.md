@@ -42,12 +42,12 @@ To get started with this project, clone the repository to your local machine.
 
 The frontend application allows users to interact with the ERC20 token smart contract. Users can transfer tokens, view their current token balance, and monitor token transfer events.
 1. Once the front end is running
- 1.1 Connect metamask wallet
- 1.2 It should display all the Token parameters
- 1.3 The transfer, mint functions should be working in sync with metamask wallet as well.
- 1.4 added functionalities like blacklist address, owner display, paus/unpause contracts should be working expectedly.
+- Connect metamask wallet
+- It should display all the Token parameters
+- The transfer, mint functions should be working in sync with metamask wallet as well.
+- Added functionalities like blacklist address, owner display, pause/unpause contracts should be working expectedly.
 
 
 ## NOTE
-**- Testing framework to be implemented - CHAI
-- Blockchain development infrastructure to be implemented - HARDHAT preferably **
+- Testing framework to be implemented - CHAI preferably
+- Blockchain development infrastructure to be implemented - upgraded to HARDHAT preferably
